@@ -7,54 +7,60 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Hero Section -->
-  <section class="hero">
-    <img src="img/mug-lightgray.png" alt="InvisiMug Product Image" />
-    <h1>InvisiMug</h1>
-    <p>The Coffee Mug That Disappears When It's Empty (or When You Lose It Again!)</p>
-    <button type="button">Buy Now &mdash; only $50!</button>
-  </section>
+  <main>
+    <!-- Hero Section (banner) -->
+    <header class="hero" role="banner">
+      <figure>
+        <img src="img/mug-lightgray.png" alt="InvisiMug Product Image" />
+      </figure>
+      <div class="hero-content">
+        <h1>InvisiMug</h1>
+        <p>The Coffee Mug That Disappears When It's Empty (or When You Lose It Again!)</p>
+        <button type="button">Buy Now &mdash; only $50!</button>
+      </div>
+    </header>
 
-  <!-- Product Description Section -->
-  <section class="description">
-    <p>
-      Ever had one of those mornings where you're hunting for your favorite mug?<br>
-      Say hello to InvisiMug—the revolutionary mug that turns invisible when empty. Now, you can enjoy your hot beverage in style and always know where your mug is… well, when it's full!
-    </p>
-  </section>
+    <!-- Product Description Section -->
+    <article class="description" role="article">
+      <p>
+        Ever had one of those mornings where you're hunting for your favorite mug?<br>
+        Say hello to InvisiMug—the revolutionary mug that turns invisible when empty. Now, you can enjoy your hot beverage in style and always know where your mug is… well, when it's full!
+      </p>
+    </article>
 
-  <!-- How It Works Section -->
-  <section class="how-it-works">
-    <h2>How It Works</h2>
-    <ol>
-      <li><strong>Fill it Up:</strong> Enjoy your favorite brew in InvisiMug.</li>
-      <li><strong>Drink Away:</strong> Savor every sip while marveling at its sturdy design.</li>
-      <li><strong>Empty & Disappear:</strong> Once the mug is empty, it automatically becomes invisible—leaving you with the perfect alibi for that lost mug moment.</li>
-    </ol>
-  </section>
+    <!-- How It Works Section -->
+    <section class="how-it-works" aria-labelledby="how-it-works-heading">
+      <h2 id="how-it-works-heading">How It Works</h2>
+      <ol>
+        <li><strong>Fill it Up:</strong> Enjoy your favorite brew in InvisiMug.</li>
+        <li><strong>Drink Away:</strong> Savor every sip while marveling at its sturdy design.</li>
+        <li><strong>Empty & Disappear:</strong> Once the mug is empty, it automatically becomes invisible—leaving you with the perfect alibi for that lost mug moment.</li>
+      </ol>
+    </section>
 
-  <!-- Feature List Section -->
-  <section class="features">
-    <h2>Why InvisiMug is Awesome:</h2>
-    <ul>
-      <li>
-        <strong>Magical Disappearance:</strong>
-        Automatically turns invisible when empty—providing the perfect excuse for that missing mug moment.
-      </li>
-      <li>
-        <strong>Conversation Starter:</strong>
-        Impress friends and colleagues with a mug that's truly one-of-a-kind.
-      </li>
-      <li>
-        <strong>Clutter-Free Living:</strong>
-        Enjoy a tidy workspace as InvisiMug vanishes when not in use.
-      </li>
-      <li>
-        <strong>Built for the Busy:</strong>
-        Perfect for on-the-go individuals who might occasionally misplace their mug.
-      </li>
-    </ul>
-  </section>
+    <!-- Feature List Section -->
+    <section class="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Why InvisiMug is Awesome:</h2>
+      <ul>
+        <li>
+          <strong>Magical Disappearance:</strong>
+          Automatically turns invisible when empty—providing the perfect excuse for that missing mug moment.
+        </li>
+        <li>
+          <strong>Conversation Starter:</strong>
+          Impress friends and colleagues with a mug that's truly one-of-a-kind.
+        </li>
+        <li>
+          <strong>Clutter-Free Living:</strong>
+          Enjoy a tidy workspace as InvisiMug vanishes when not in use.
+        </li>
+        <li>
+          <strong>Built for the Busy:</strong>
+          Perfect for on-the-go individuals who might occasionally misplace their mug.
+        </li>
+      </ul>
+    </section>
+  </main>
 
   <!-- Footer Section -->
   <footer>
