@@ -20,6 +20,15 @@ body {
   width: 200px;
   border-radius: 50%;
   border: solid 4px #16213e;
+  filter: grayscale(100%) brightness(105%);
+  opacity: 0.75;
+  transition: filter 200ms ease, opacity 200ms ease, transform 200ms ease, box-shadow 200ms ease;
+}
+.hero img:hover {
+  filter: grayscale(0%) brightness(100%);
+  opacity: 1;
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
 }
 
 .hero h1 {
