@@ -55,7 +55,7 @@ body {
 }
 
 .hero button:hover {
-  background-color: #362056;
+  background-color: #160235;
   transform: translateY(-3px);
   box-shadow: 0 8px 18px rgba(83,52,131,0.25);
 }
