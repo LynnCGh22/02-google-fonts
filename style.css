@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   background-color: #ffffff;
   color: #333;
   line-height: 1.6;
@@ -42,10 +42,30 @@ body {
   cursor: pointer;
   padding: 1em 2em; /* Increased button size using em */
   font-size: 1.1em; /* Increased font size using em */
+  font-family: 'Poppins', 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  transition: background-color 200ms ease, transform 200ms ease, box-shadow 200ms ease;
 }
 
 .hero button:hover {
-  background-color: #362056; 
+  background-color: #362056;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(83,52,131,0.25);
+}
+
+/* Apply heading fonts and transitions */
+h1, h2, h3, h4, h5, h6, strong {
+  font-family: 'Poppins', 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+}
+
+a, .hero button, .features li {
+  transition: background-color 200ms ease, transform 200ms ease, color 200ms ease, box-shadow 200ms ease;
+}
+
+.features li:hover {
+  background-color: #f9f7ff;
+  transform: translateX(4px);
 }
 
 /* Product Description Section */
